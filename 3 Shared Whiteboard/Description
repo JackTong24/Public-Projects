@@ -1,0 +1,18 @@
+Shared Whiteboard
+A real-time collaborative drawing tool (like Microsoft Whiteboard or Miro) where multiple users can draw, chat, and work together on the same canvas at the same time.
+
+What it does
+Users join via a simple username
+One user is the manager who approves join requests and can kick people
+Everyone draws together instantly: freehand, lines, shapes (rectangle, oval, triangle), text, and erase
+Built-in chat window for team communication
+Manager can save/load the entire canvas as a JSON file
+
+Built with a clean client-server architecture so everyone always sees the exact same board.
+Strong distributed systems skills: sockets, multi-threading, real-time synchronization
+Solid Java & JavaFX GUI development
+Practical experience with JSON messaging and state management across networks
+Handles concurrency and user permissions cleanly
+
+Perfect demonstration of building a responsive, multi-user networked application.
+Technologies & Skills: Java, JavaFX, Client-Server Architecture, Sockets, JSON (Jackson), Multi-threading, Real-time Collaboration
