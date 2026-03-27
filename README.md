@@ -11,3 +11,6 @@ Technologies: Python, Minimax, Alpha-Beta Pruning, Lookahead Search, Performance
 
 3. Shared Whiteboard
 A real-time collaborative drawing tool (like Microsoft Whiteboard or Miro) where multiple users can draw, chat, and work together on the same canvas at the same time.
+
+4. Handwritten Digit Recognition
+A complete machine learning project that classifies handwritten digits (0–9) from 8×8 pixel images using the UCI Optical Recognition of Handwritten Digits dataset.
