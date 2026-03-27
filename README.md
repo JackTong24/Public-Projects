@@ -17,3 +17,6 @@ A complete machine learning project that classifies handwritten digits (0–9) f
 
 5. Intel Image Classification Robustness Study
 A machine learning project that compares three classifiers — Naïve Bayes, RBF-SVM, and EfficientNet-B0 — on the Intel Image Classification dataset (6 scene classes: buildings, forest, glacier, mountain, sea, street).
+
+6. Calorie Estimation with Vision and Depth
+A computer vision project that estimates the calorie content of plated meals using overhead RGB images and raw depth maps from the Nutrition5K dataset.
