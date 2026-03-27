@@ -1,0 +1,13 @@
+Tetress AI Game Agent
+An intelligent AI agent for Tetress – a two-player strategy game on an 11×11 toroidal board (like a donut-shaped Tetris battlefield). Players take turns placing tetrominoes until one can’t move or the board fills up.
+What it does
+It plays as either Red or Blue and always chooses the smartest tetromino placement. Using minimax search with alpha-beta pruning and lookahead (depth 3), it anticipates the opponent’s moves and picks placements that block them as much as possible while keeping strong board control.
+Why employers will like it
+
+Real adversarial game AI in action (minimax, alpha-beta pruning, smart evaluation)
+Handles tight constraints (180 seconds & 250 MB per game)
+Proven results: ~80–85% win rate vs random opponents, 85–100% vs greedy opponents
+Clean, efficient Python code with full technical report explaining the strategy and optimizations
+
+Technologies & Skills
+Python • Minimax • Alpha-Beta Pruning • Lookahead Search • Game AI • Performance Optimization
