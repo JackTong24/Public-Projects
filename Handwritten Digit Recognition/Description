@@ -1,0 +1,19 @@
+Handwritten Digit Recognition
+A complete machine learning project that classifies handwritten digits (0–9) from 8×8 pixel images using the UCI Optical Recognition of Handwritten Digits dataset.
+What it does
+
+Preprocessed 64 intensity features and engineered 23 additional spatial features (row/column sums, symmetry scores, centre of mass, etc.)
+Implemented and compared three algorithms: Naïve Bayes, Support Vector Machines (RBF kernel), and Decision Trees
+Used nested cross-validation (5 outer / 3 inner folds) with hyperparameter tuning and learning curve analysis
+
+Results
+SVM: 98.88% accuracy (best performer)
+Naïve Bayes: 93.45%
+Decision Trees: 89.93%
+
+End-to-end ML pipeline with thoughtful feature engineering
+Rigorous evaluation using nested cross-validation
+Clear analysis of bias-variance trade-offs between models
+Clean, reproducible Python code and detailed technical report
+
+Technologies & Skills: Python, scikit-learn, Pandas, NumPy, Matplotlib, Feature Engineering, Model Evaluation, Cross-Validation
