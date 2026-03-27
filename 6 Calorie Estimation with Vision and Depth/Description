@@ -1,0 +1,16 @@
+Calorie Estimation with Vision and Depth
+A computer vision project that estimates the calorie content of plated meals using overhead RGB images and raw depth maps from the Nutrition5K dataset.
+
+What it does
+Built and compared multiple CNN architectures, evolving from a standard CNN to a final cross-modal attention model with residual blocks and an auxiliary depth head.
+Fused RGB and depth data streams, using depth to guide spatial attention on the colour image.
+Applied careful preprocessing (resizing to 128×96, normalisation, mirroring augmentation) and outlier handling.
+Evaluated with 5-fold stratified cross-validation; final model achieved strong validation performance (MSE ≈ 4993).
+Generated Kaggle submission predictions and performed detailed error analysis.
+
+Practical multi-modal deep learning: combining RGB + depth for real-world scene understanding.
+Modern CV techniques: residual connections, cross-modal fusion, and attention mechanisms.
+End-to-end pipeline: data curation, augmentation, model design, evaluation, and deployment-ready CSV output.
+Strong emphasis on practical performance, robustness, and iterative model improvement.
+
+Technologies & Skills: PyTorch, torchvision, CNNs, Residual Networks, Cross-Modal Attention, Data Augmentation, Computer Vision, Multimodal Learning
