@@ -1,0 +1,21 @@
+Intel Image Classification Robustness Study
+A machine learning project that compares three classifiers — Naïve Bayes, RBF-SVM, and EfficientNet-B0 — on the Intel Image Classification dataset (6 scene classes: buildings, forest, glacier, mountain, sea, street).
+What it does
+
+Created a balanced subset (1,667 images per class) with strong augmentations (rotation, colour jitter, blur, noise, erasing)
+Trained and evaluated models using 10×3 nested cross-validation
+Tested robustness under real-world perturbations: occlusion, lighting changes, and viewpoint shifts
+Analysed learning curves, class-wise performance, and confusion matrices
+
+Results
+EfficientNet-B0: 71.33% F1 (best overall and most robust)
+RBF-SVM: 63.36% F1
+Naïve Bayes: 55.66% F1
+
+EfficientNet clearly outperformed the classical baselines while degrading the least under image alterations.
+Modern CNNs with transfer learning (EfficientNet)
+Rigorous evaluation: nested cross-validation, learning curves, and robustness testing
+Practical data pipeline: balanced sampling, augmentation, normalisation, and augmentation-based robustness analysis
+Clear comparison of bias-variance trade-offs between classic ML and deep learning
+
+Technologies & Skills: PyTorch, torchvision, EfficientNet, scikit-learn, Nested Cross-Validation, Data Augmentation, Robustness Analysis
