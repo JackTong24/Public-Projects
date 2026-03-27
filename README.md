@@ -14,3 +14,6 @@ A real-time collaborative drawing tool (like Microsoft Whiteboard or Miro) where
 
 4. Handwritten Digit Recognition
 A complete machine learning project that classifies handwritten digits (0–9) from 8×8 pixel images using the UCI Optical Recognition of Handwritten Digits dataset.
+
+5. Intel Image Classification Robustness Study
+A machine learning project that compares three classifiers — Naïve Bayes, RBF-SVM, and EfficientNet-B0 — on the Intel Image Classification dataset (6 scene classes: buildings, forest, glacier, mountain, sea, street).
